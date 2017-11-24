@@ -21,4 +21,8 @@ Dann haben wir die Schildkröte mit Hilfe des "forever"-Blocks immer im Quadrat 
 
 ### Lernaktivität zwei:
 
+Zunächst haben wir eine Variable definiert, die eine bestimmte Anzahl von Schildkröten erzeugt. Um die Variable zu benutzen setzten wir sie unter den "setup"-Block. Den Slider fügen wir im Schildkröten Feld hinzu. Damit die Schildkröten sich zufällig im Spaceland bewegen benutzen wir zwei random-Blöcke:
+
+![Screenshot01](Bilder/Screenshot.sltng.2.png "sltng")
+
 
