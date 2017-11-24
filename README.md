@@ -12,4 +12,7 @@ Zuerst haben wir uns mit dem Spaceland vertraut gemacht, und gelernt, wie wir zw
 
 ## Zweite und dritte Stunde <a name="2"></a> (Doppelstunde)
 
+In der ersten Lernaktivität haben wir zwei verschiedene Agentenarten erstellt: Schildkröten und Elefanten.
+Dann haben wir die Schildkröte mit Hilfe des "forever"-Blocks immer im Quadrat laufen lassen:
+
 ![Screenshot01](Bilder/Screenshot.sltng.1.png "sltng")
