@@ -34,4 +34,13 @@ Um die Schildkröten miteinander sprechen zu lassen, wenn sie aufeinandertreffen
 
 ## Vierte und fünfte Stunde <a name="3"></a> (Doppelstunde)
 
+### Lernaktivität drei:
+
+Zunächst haben Wir einen "create-do"-Block verwendet, um alle Schildkröten Rot zu färben.
+![Screenshot01](Bilder/Screenshot.sltng.4.png "sltng")
+
+![Screenshot01](Bilder/Screenshot.sltng.5.png "sltng")
+
+
+
 
