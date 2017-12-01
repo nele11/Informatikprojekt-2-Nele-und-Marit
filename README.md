@@ -50,3 +50,9 @@ Um drei verschiedene Farben zu erhalten haben wir zusätzlich zwei "if"-Blöcke 
 Wir benutzten einen "collision"-Block, damit die Schildkröten gelb werden, wenn sie sich treffen:
 
 ![Screenshot01](Bilder/Screenshot.sltng.6.png "sltng")
+
+#### Aufgabe drei
+
+![Screenshot01](Bilder/Screenshot.sltng.7.png "sltng")
+
+
