@@ -4,6 +4,8 @@
 
 [24/11/17, 2. und 3. Stunde](#2)
 
+[1/12/17, 4. und 5. Stunde](#3)
+
 ## Erste Stunde <a name="1"></a>
 
 Wir haben uns dazu entschiedenals nächstes Projekt eine Lernaktivität mit StarlogoTNG zu machen.
@@ -24,5 +26,11 @@ Dann haben wir die Schildkröte mit Hilfe des "forever"-Blocks immer im Quadrat 
 Zunächst haben wir eine Variable definiert, die eine bestimmte Anzahl von Schildkröten erzeugt. Um die Variable zu benutzen setzten wir sie unter den "setup"-Block. Den Slider fügen wir im Schildkröten Feld hinzu. Damit die Schildkröten sich zufällig im Spaceland bewegen benutzen wir zwei random-Blöcke:
 
 ![Screenshot01](Bilder/Screenshot.sltng.2.png "sltng")
+
+
+![Screenshot01](Bilder/Screenshot.sltng.3.png "sltng")
+
+
+## Vierte und fünfte Stunde <a name="3"></a> (Doppelstunde)
 
 
