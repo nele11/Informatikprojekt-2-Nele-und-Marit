@@ -27,6 +27,7 @@ Zunächst haben wir eine Variable definiert, die eine bestimmte Anzahl von Schil
 
 ![Screenshot01](Bilder/Screenshot.sltng.2.png "sltng")
 
+Um die Schildkröten miteinander sprechen zu lassen, wenn sie aufeinandertreffen, haben wir einen "collision"-Block benutzt. In diesen haben wir zwei "say"-Blöcke benutzt:
 
 ![Screenshot01](Bilder/Screenshot.sltng.3.png "sltng")
 
