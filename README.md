@@ -36,6 +36,8 @@ Um die Schildkröten miteinander sprechen zu lassen, wenn sie aufeinandertreffen
 
 ### Lernaktivität drei:
 
+#### Aufgabe eins
+
 Zunächst haben Wir einen "create-do"-Block verwendet, um alle Schildkröten Rot zu färben. 
 Um drei verschiedene Farben zu erhalten haben wir zusätzlich zwei "if"-Blöcke und Variablen benutzt:
 
@@ -43,6 +45,8 @@ Um drei verschiedene Farben zu erhalten haben wir zusätzlich zwei "if"-Blöcke 
 
 ![Screenshot01](Bilder/Screenshot.sltng.5.png "sltng")
 
+#### Aufgabe zwei
 
+Wir benutzten einen "collision"-Block, damit die Schildkröten gelb werden, wenn sie sich treffen:
 
-
+![Screenshot01](Bilder/Screenshot.sltng.6.png "sltng")
