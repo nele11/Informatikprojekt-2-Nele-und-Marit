@@ -6,6 +6,8 @@
 
 [1/12/17, 4. und 5. Stunde](#3)
 
+[6/12/17, 6. Stunde](#4)
+
 ## Erste Stunde <a name="1"></a>
 
 Wir haben uns dazu entschiedenals nächstes Projekt eine Lernaktivität mit StarlogoTNG zu machen.
@@ -55,4 +57,6 @@ Wir benutzten einen "collision"-Block, damit die Schildkröten gelb werden, wenn
 
 ![Screenshot01](Bilder/Screenshot.sltng.7.png "sltng")
 
+
+## Sechste Stunde <a name="1"></a>
 
