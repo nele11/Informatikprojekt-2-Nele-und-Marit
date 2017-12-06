@@ -55,10 +55,19 @@ Wir benutzten einen "collision"-Block, damit die Schildkröten gelb werden, wenn
 
 #### Aufgabe drei
 
-Die Aufgabe bestand darin, die Schildkröten verschwinden zu lassen, wenn sie sich treffen. Hierzu haben wir einen "if-then-Block" benutzt. Als Bedingung haben wir nun eingesetzt, dass die Schildkröte die gleiche Farbe hat, wie die mit der sie kollidiert. In diesem Fall soll die Schildkröte sterben.
+Die Aufgabe bestand darin, die Schildkröten verschwinden zu lassen, wenn sie sich treffen. Hierzu haben wir einen "if-then"-Block benutzt. Als Bedingung haben wir nun eingesetzt, dass die Schildkröte die gleiche Farbe hat, wie die mit der sie kollidiert. In diesem Fall soll die Schildkröte sterben.
 
 ![Screenshot01](Bilder/Screenshot.sltng.7.png "sltng")
 
 
 ## Sechste Stunde <a name="4"></a>
+
+### Lernaktivität vier:
+
+#### Aufgabe eins
+
+Wir benutzen den "clear everyone"-Block, um alle Agenten zu entfernen. Dann entferne wir den Block, der Schildkröten kreiert aus dem "setup"-Block. Nun wird nur noch ein Elefant erstellt.
+
+![Screenshot01](Bilder/Screenshot.sltng.8.png "sltng")
+
 
