@@ -70,4 +70,13 @@ Wir benutzen den "clear everyone"-Block, um alle Agenten zu entfernen. Dann entf
 
 ![Screenshot01](Bilder/Screenshot.sltng.8.png "sltng")
 
+#### Aufgabe zwei
+
+
+![Screenshot01](Bilder/Screenshot.sltng.9.png "sltng")
+
+
+
+
+
 
