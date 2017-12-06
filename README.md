@@ -55,6 +55,8 @@ Wir benutzten einen "collision"-Block, damit die Schildkröten gelb werden, wenn
 
 #### Aufgabe drei
 
+Die Aufgabe bestand darin, die Schildkröten verschwinden zu lassen, wenn sie sich treffen. Hierzu haben wir einen "if-do-Block" benutzt:
+
 ![Screenshot01](Bilder/Screenshot.sltng.7.png "sltng")
 
 
