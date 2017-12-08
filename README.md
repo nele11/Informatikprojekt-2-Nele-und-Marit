@@ -75,6 +75,7 @@ Wir benutzen den "clear everyone"-Block, um alle Agenten zu entfernen. Dann entf
 
 #### Aufgabe zwei
 
+Die zweite Aufgabe bestand darin, einen Actor so zu programmieren, dass er sich mit den Pfeiltasten steuern lässt. Hierzu benutzten wir im "forever"-Bereich mehrere "if-then"-Blöcke. Als if-Bedingung setzen wir die jeweiligen Pfeiltasten ein.
 
 ![Screenshot01](Bilder/Screenshot.sltng.9.png "sltng")
 
