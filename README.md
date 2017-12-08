@@ -8,6 +8,9 @@
 
 [6/12/17, 6. Stunde](#4)
 
+[8/12/17, 7. und 8. Stunde](#5)
+
+
 ## Erste Stunde <a name="1"></a>
 
 Wir haben uns dazu entschiedenals nächstes Projekt eine Lernaktivität mit StarlogoTNG zu machen.
@@ -74,6 +77,15 @@ Wir benutzen den "clear everyone"-Block, um alle Agenten zu entfernen. Dann entf
 
 
 ![Screenshot01](Bilder/Screenshot.sltng.9.png "sltng")
+
+
+## Siebte und achte Stunde Stunde <a name="5"></a> (Doppelstunde)
+
+#### Aufgabe drei
+
+
+
+
 
 
 
