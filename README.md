@@ -102,7 +102,7 @@ Wir definierten im Bereich des Blockes einen Slider. Damit wir diesen auch benut
 Damit der Elefant Blöcke einsammeln und etwas sagen kann, benutzten wir einen "collision"-Block. Beim Block fügten wir "die" hinzu, beim Elefanten "say" und "Ohh, ein Block!". 
 Nun kann man den Elefanten im Spaceland so steuern, dass er auf Blöcke trifft. Passiert dies, soverschwindet der Block, und der Elefant sagt: "Ohh, ein Block!"
 
-
+![Screenshot01](Bilder/Screenshot.sltng.10.png "sltng")
 
 
 
