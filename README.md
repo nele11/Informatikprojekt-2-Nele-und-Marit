@@ -110,6 +110,18 @@ Die Aufgabe in Lernaktivität fünf bestand darin, einen Wald zu erzeugen, in de
 
 Zunächst erstellten wir den Wald, in dem der Agent sich bewegen soll:
 
+Als erstes haben wir unter "Edit Breeds" zwei neue Agentenklassen erstellt: Laubbäume und Tannen.
+
+![Screenshot01](Bilder/Screenshot.sltng.12.png "sltng")
+
+Um nun mit den Bäumen einen Wald zu kreieren, setzten wir im Setup-Bereich zwei neue "create"-Blöcke ein. Wir erstellten 100 Laubbäume und 60 Tannen, um ein stimmiges Bild zu erhalten:
+
+![Screenshot01](Bilder/Screenshot.sltng.11.png "sltng")
+
+
+
+
+
 
 
 
