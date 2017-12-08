@@ -79,7 +79,7 @@ Die zweite Aufgabe bestand darin, einen Actor so zu programmieren, dass er sich 
 In den Block für die rechte Pfeiltaste setzten wir unter "then" den Befehl, sich um 90° nach rechts zu drehen, und dann einen Schritt nach vorne zu gehen.
 Für die linke Pfeiltaste setzten wir die selben Blöcke ein, mit einer Drehung nach links anstelle von rechts.
 In den "then"-Bereich des "if"-Blockes für die obere Pfeiltaste setzen wir nur den Befehl "forward" ein, kombiniert mit dem Parameter 1.
-Für die untere Pfeiltaste programmierten wir, dass der Actor sich rückwärts bewegt.
+Für die untere Pfeiltaste programmierten wir, dass der Agent sich rückwärts bewegt.
 
 Aktiviert man nun im Spaceland den "forever"-Block, so lässt der Elefant sich mit den Pfeiltasten steuern. Drückt man die rechte oder linke Pfeiltaste, so dreht er sich in die entsprechende Richtung, um ihn aber beispielsweise nach rechts laufen zu lassen, muss man zunächst einmal die rechte Pfeiltaste und dann die obere drücken. Würde man nur die rechte mehrmals drücken, so würde er objektiv von oben betrachten nicht nach rechts laufen, sondern sich nur immer wieder um 90° nach rechts drehen, und dann einen Schritt nach vorne machen.
 
@@ -88,9 +88,19 @@ Aktiviert man nun im Spaceland den "forever"-Block, so lässt der Elefant sich m
 
 ## Siebte und achte Stunde Stunde <a name="5"></a> (Doppelstunde)
 
+Zunächst haben wir die Benotung unserer ersten Projekte erhalten.
+Danach haben wir uns mit der Klasse gemeinsam einen Text der Verfasser von "TheBeautyAndJoyOfComputing" angeguckt.
+Anschließen haben wir die vierte Lernaktivitat unseres Projektes fortgeführt.
+
 #### Aufgabe drei
 
+Damit der Agent, in unserem Fall ein Elefant, Blöcke einsammeln kann, mussten wir zunächst welche kreieren.
+Hierzu erstellten wir unter "Edit Breeds" eine neue Klasse, den Block.
+Nun fügten wir im Setup-Bereich einen "create-Do"-Block für die Agentenklasse "Block" hinzu.
+Wir definierten im Bereich des Blockes einen Slider. Damit wir diesen auch benutzten können, mussten wir im Setup-Bereich dem "create-Do"-Block des Blockes noch die Aufforderung hinzufügen, eine Anzahl von Blöcken mit dem Slider zu kreieren.
 
+Damit der Elefant Blöcke einsammeln und etwas sagen kann, benutzten wir einen "collision"-Block. Beim Block fügten wir "die" hinzu, beim Elefanten "say" und "Ohh, ein Block!". 
+Nun kann man den Elefanten im Spaceland so steuern, dass er auf Blöcke trifft. Passiert dies, soverschwindet der Block, und der Elefant sagt: "Ohh, ein Block!"
 
 
 
