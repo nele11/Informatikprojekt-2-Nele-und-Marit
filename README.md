@@ -104,7 +104,11 @@ Nun kann man den Elefanten im Spaceland so steuern, dass er auf Blöcke trifft. 
 
 ![Screenshot01](Bilder/Screenshot.sltng.10.png "sltng")
 
+### Lernaktivität fünf
 
+Die Aufgabe in Lernaktivität fünf bestand darin, einen Wald zu erzeugen, in dem der steuerbare Agent herumlaufen kann. Der Agent sollte auf die Bäume heraufklettern können. Aufgabe des Agenten sollte es sein, einen Schlüssel zu finden, mit dem er sich Zutritt zu einem Gebäude verschaffen kann.
+
+Zunächst erstellten wir den Wald, in dem der Agent sich bewegen soll:
 
 
 
