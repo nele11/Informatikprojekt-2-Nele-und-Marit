@@ -10,6 +10,11 @@
 
 [8/12/17, 7. und 8. Stunde](#5)
 
+[15/12/17, 9. und 10. Stunde](#6)
+
+
+
+
 
 ## Erste Stunde <a name="1"></a>
 
@@ -119,8 +124,12 @@ Um nun mit den Bäumen einen Wald zu kreieren, setzten wir im Setup-Bereich zwei
 ![Screenshot01](Bilder/Screenshot.sltng.11.png "sltng")
 
 
+## Neunte und zehnte Stunde <a name="5"></a> (Doppelstunde)
 
-
+In diesen Stunden haben wir uns damit beschäftigt, den Agenten so zu programmieren, dass er auf die Bäume klettern kann.
+Hierzu haben wir zwei "collision"-Blöcke (für jede Baumart einen) benutzt. Wir benutzten "if-test-then"-Blöcke, setzten als Bedingungen jeweils eine Pfeiltaste ein, und benutzten "up" und "down". Nun konnten wir den Elefanten wenn er auf einen Baum traf mit den Pfeiltasten nach oben oder unten bewegen.
+Bei dieser Methode, den Agenten zu programmieren, ergab sich nu das Problem, dass der Elefant sich wenn er auf den Baum geklettert war, von der Stelle bewegte. Da die "up"- und "down"-Befehle aber nur in dem Moment funktionierten, in dem der Elefant mit einem Baum kollidierte, konnte man den Elefanten nun nicht mehr auf den Bodenzurück bringen.
+Um dieses Problem hzu lösen, suchten wir nun nach einer Möglichkeit, die anderweitige Steuerung über die Pfeiltasten zu deaktivieren, wenn der Elefant mit einem Baum kollidiert.
 
 
 
