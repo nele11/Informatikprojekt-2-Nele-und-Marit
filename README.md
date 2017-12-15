@@ -131,6 +131,7 @@ Hierzu haben wir zwei "collision"-Blöcke (für jede Baumart einen) benutzt. Wir
 Bei dieser Methode, den Agenten zu programmieren, ergab sich nu das Problem, dass der Elefant sich wenn er auf den Baum geklettert war, von der Stelle bewegte. Da die "up"- und "down"-Befehle aber nur in dem Moment funktionierten, in dem der Elefant mit einem Baum kollidierte, konnte man den Elefanten nun nicht mehr auf den Bodenzurück bringen.
 Um dieses Problem hzu lösen, suchten wir nun nach einer Möglichkeit, die anderweitige Steuerung über die Pfeiltasten zu deaktivieren, wenn der Elefant mit einem Baum kollidiert.
 
+![Screenshot01](Bilder/Screenshot.sltng.13.png "sltng")
 
 
 
