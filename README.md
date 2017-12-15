@@ -124,7 +124,7 @@ Um nun mit den Bäumen einen Wald zu kreieren, setzten wir im Setup-Bereich zwei
 ![Screenshot01](Bilder/Screenshot.sltng.11.png "sltng")
 
 
-## Neunte und zehnte Stunde <a name="5"></a> (Doppelstunde)
+## Neunte und zehnte Stunde <a name="6"></a> (Doppelstunde)
 
 In diesen Stunden haben wir uns damit beschäftigt, den Agenten so zu programmieren, dass er auf die Bäume klettern kann.
 Hierzu haben wir zwei "collision"-Blöcke (für jede Baumart einen) benutzt. Wir benutzten "if-test-then"-Blöcke, setzten als Bedingungen jeweils eine Pfeiltaste ein, und benutzten "up" und "down". Nun konnten wir den Elefanten wenn er auf einen Baum traf mit den Pfeiltasten nach oben oder unten bewegen.
