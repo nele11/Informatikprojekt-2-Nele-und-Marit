@@ -129,9 +129,14 @@ Um nun mit den Bäumen einen Wald zu kreieren, setzten wir im Setup-Bereich zwei
 In diesen Stunden haben wir uns damit beschäftigt, den Agenten so zu programmieren, dass er auf die Bäume klettern kann.
 Hierzu haben wir zwei "collision"-Blöcke (für jede Baumart einen) benutzt. Wir benutzten "if-test-then"-Blöcke, setzten als Bedingungen jeweils eine Pfeiltaste ein, und benutzten "up" und "down". Nun konnten wir den Elefanten wenn er auf einen Baum traf mit den Pfeiltasten nach oben oder unten bewegen.
 Bei dieser Methode, den Agenten zu programmieren, ergab sich nun das Problem, dass der Elefant sich wenn er auf den Baum geklettert war, von der Stelle bewegte. Da die "up"- und "down"-Befehle aber nur in dem Moment funktionierten, in dem der Elefant mit einem Baum kollidierte, konnte man den Elefanten nun nicht mehr auf den Bodenzurück bringen.
-Um dieses Problem hzu lösen, suchten wir nun nach einer Möglichkeit, die anderweitige Steuerung über die Pfeiltasten zu deaktivieren, wenn der Elefant mit einem Baum kollidiert.
+Um dieses Problem zu lösen, suchten wir nun nach einer Möglichkeit, die normale Richtungssteuerung über die Pfeiltasten zu deaktivieren, wenn der Elefant mit einem Baum kollidiert.
 
 ![Screenshot01](Bilder/Screenshot.sltng.13.png "sltng")
+
+
+Wir haben hierzu eine neue Variable eingeführt, die wir "IstImBaum" genannt haben. Den Setup-Bereich haben wir dann zunächst so programmiert, dass die Variable am Anfang auf "false" gesetzt wird. Unter dem "collision"-Block haben wir dann unter dem Befehl, sich beim Drücken der Pfeiltaste nach oben zu bewegen noch den Befehl hinzugefügt, die Variable auf "true" zu setzten.
+Nach dem Herunterklettern vom Baum wird die Variable wieder als "false" wiedergegeben.
+Damit die Richtungssteuerung mit den Pfeiltasten deaktiviert wird, wenn der Elefant sich im Baum befindet, haben wir im "forever"-Block noch eine "if-test-then"-Bedingung hinzugefügt, nach der die Steuerung über nich Pfeiltasten nur dann funktioniert, wenn die neue Variable als "false" wiedergegeben wird.
 
 ![Screenshot01](Bilder/Screenshot.sltng.14.png "sltng")
 
@@ -140,6 +145,7 @@ Um dieses Problem hzu lösen, suchten wir nun nach einer Möglichkeit, die ander
 
 ## Elfte Stunde <a name="7"></a> 
 
-
+Die heutige Stunde haben wir damit verbracht, zuerst den Stundenblock der letzten Stunde zu vervollständigen.
+Da die letzte Stunde vor den Ferien war, mussten wir uns wieder in das Programm einarbeiten, und uns ins Gedächtnis rufen, was wir bisher gemacht hatten.
 
 
