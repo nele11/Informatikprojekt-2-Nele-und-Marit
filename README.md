@@ -134,7 +134,7 @@ Um dieses Problem zu lösen, suchten wir nun nach einer Möglichkeit, die normal
 ![Screenshot01](Bilder/Screenshot.sltng.13.png "sltng")
 
 
-Wir haben hierzu eine neue Variable eingeführt, die wir "IstImBaum" genannt haben. Den Setup-Bereich haben wir dann zunächst so programmiert, dass die Variable am Anfang auf "false" gesetzt wird. Unter dem "collision"-Block haben wir dann unter dem Befehl, sich beim Drücken der Pfeiltaste nach oben zu bewegen noch den Befehl hinzugefügt, die Variable auf "true" zu setzten.
+Wir haben hierzu eine neue Variable eingeführt, die wir "IstImBaum" genannt haben. Den Setup-Bereich haben wir dann zunächst so programmiert, dass die Variable am Anfang auf "false" gesetzt wird. Unter dem "Collision"-Block haben wir dann unter dem Befehl, sich beim Drücken der Pfeiltaste nach oben zu bewegen noch den Befehl hinzugefügt, die Variable auf "true" zu setzten.
 Nach dem Herunterklettern vom Baum wird die Variable wieder als "false" wiedergegeben.
 Damit die Richtungssteuerung mit den Pfeiltasten deaktiviert wird, wenn der Elefant sich im Baum befindet, haben wir im "forever"-Block noch eine "if-test-then"-Bedingung hinzugefügt, nach der die Steuerung über nich Pfeiltasten nur dann funktioniert, wenn die neue Variable als "false" wiedergegeben wird.
 
