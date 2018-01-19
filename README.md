@@ -153,3 +153,11 @@ Da die letzte Stunde vor den Ferien war, mussten wir uns wieder in das Programm 
 Außerdem haben wir eine Burg als neuen Agenten erstellt.
 
 ## Zwölfte und Dreizehnte Stunde <a name="8"></a> (Doppelstunde)
+
+
+![Screenshot01](Bilder/Screenshot.sltng.16.png "sltng")
+
+
+![Screenshot01](Bilder/Screenshot.sltng.17.png "sltng")
+
+
