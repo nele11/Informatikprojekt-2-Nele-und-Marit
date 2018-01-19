@@ -148,4 +148,5 @@ Damit die Richtungssteuerung mit den Pfeiltasten deaktiviert wird, wenn der Elef
 Die heutige Stunde haben wir damit verbracht, zuerst den Stundenblock der letzten Stunde zu vervollständigen.
 Da die letzte Stunde vor den Ferien war, mussten wir uns wieder in das Programm einarbeiten, und uns ins Gedächtnis rufen, was wir bisher gemacht hatten.
 
+Außerdem haben wir eine Burg als neuen Agenten erstellt.
 
