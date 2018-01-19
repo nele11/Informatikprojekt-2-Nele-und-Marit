@@ -154,10 +154,17 @@ Außerdem haben wir eine Burg als neuen Agenten erstellt.
 
 ## Zwölfte und Dreizehnte Stunde <a name="8"></a> (Doppelstunde)
 
+Zuerst zeigte uns Herr Buhl eine Möglichkeit, die Kollisionen des Elefanten mit den unterschiedlichen Bäumen platzsparender und übersichtlicher zu programmieren: Wir erstellten eine neue "Procedure", welche wir "climbTree" nannten. Hierunter haben wir dann den Block, der die Steuerung des Elefanten bei Kollision mit einem Baum programmiert gesetzt. In die Kollisionsblöcke konnten wir dann einfach den "climbTree"-Block setzten.
 
 ![Screenshot01](Bilder/Screenshot.sltng.16.png "sltng")
 
+Als nächsten haben wir weiter sdaran gearbeitet, dass Spiel aus der Lernaktivität zu programmieren. Hierzu haben wir zunächst einen neuen Agenten, die Karotte, erstellt. Sie soll im weiteren Verlauf des Spieles als Schlüssel für die Burg fungieren.
 
+Im "setup"-Bereich haben wir dann Befehle hinzugefügt, die eine Karotte und eine Burg erstellen.
+Dann haben wir einen neuen Kollisionsblock zwischen dem Elefanten und der Karotte erstellt. Mit dem "die"-Block haben wir programmiert, dass die Karotte bei einem Zusammenstoß verschwindet. Außerdem erstellten wir den Boolean "hatKarotte" für den Elefanten. Im "setup"-Berich legten wir fest, dass dieser am Anfang des Spieles als "false" wiedergegeben wird. Unter dem eben erwähnten Kollisionsblock legten wir fest, dass der Boolean wenn die beiden Agenten zusammenstoßen auf "true" gesetzt wird.
+So haben wir programmiert, dass der Elefant die Karotte aufsammeln kann.
+
+Damit er dann auch die Burg betreten kann, haben wir einen zweiten Kollisionsblock benutzt. Mit Hilfe eines "if-test-then"-Blockes ließen wir dass Programm testen, ob der Boolean "hatKarotte" als "true" wiedergegeben wird. Ist dies der Fall, so lassen wir den Elefanten mit dem "die"-Block verschwinden, also die Burg betreten.
 ![Screenshot01](Bilder/Screenshot.sltng.17.png "sltng")
 
 
