@@ -168,4 +168,6 @@ Damit er dann auch die Burg betreten kann, haben wir einen zweiten Kollisionsblo
 
 ![Screenshot01](Bilder/Screenshot.sltng.17.png "sltng")
 
+Um unser Spiel zu vervollständigen haben wir zuletzt noch unter dem Kollisionsblock des Elefanten mit der Burg einen "say"-Block für die Burg hinzugefügt. Wenn der Elefant nun mit der Burg kollidiert, sieht es so aus, als würde er die Burg betreten, und von innen "Juhuu!! Mission completed." rufen.
 
+![Screenshot01](Bilder/Screenshot.sltng.18.png "sltng")
