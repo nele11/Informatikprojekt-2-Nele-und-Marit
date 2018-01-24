@@ -71,6 +71,7 @@ Die Aufgabe bestand darin, die Schildkröten verschwinden zu lassen, wenn sie si
 
 ![Screenshot01](Bilder/Screenshot.sltng.7.png "sltng")
 
+(Verbesserung des Fehlers s.vierzehnte Stunde)
 
 ## Sechste Stunde <a name="4"></a>
 
@@ -160,7 +161,7 @@ Zuerst zeigte uns Herr Buhl eine Möglichkeit, die Kollisionen des Elefanten mit
 
 ![Screenshot01](Bilder/Screenshot.sltng.16.png "sltng")
 
-Als nächsten haben wir weiter sdaran gearbeitet, dass Spiel aus der Lernaktivität zu programmieren. Hierzu haben wir zunächst einen neuen Agenten, die Karotte, erstellt. Sie soll im weiteren Verlauf des Spieles als Schlüssel für die Burg fungieren.
+Als nächsten haben wir weiter daran gearbeitet, dass Spiel aus der Lernaktivität zu programmieren. Hierzu haben wir zunächst einen neuen Agenten, die Karotte, erstellt. Sie soll im weiteren Verlauf des Spieles als Schlüssel für die Burg fungieren.
 
 Im "setup"-Bereich haben wir dann Befehle hinzugefügt, die eine Karotte und eine Burg erstellen.
 Dann haben wir einen neuen Kollisionsblock zwischen dem Elefanten und der Karotte erstellt. Mit dem "die"-Block haben wir programmiert, dass die Karotte bei einem Zusammenstoß verschwindet. Außerdem erstellten wir den Boolean "hatKarotte" für den Elefanten. Im "setup"-Berich legten wir fest, dass dieser am Anfang des Spieles als "false" wiedergegeben wird. Unter dem eben erwähnten Kollisionsblock legten wir fest, dass der Boolean wenn die beiden Agenten zusammenstoßen auf "true" gesetzt wird.
@@ -177,5 +178,10 @@ Um unser Spiel zu vervollständigen haben wir zuletzt noch unter dem Kollisionsb
 
 ## Vierzehnte Stunde <a name="9"></a>
 
+Herr Buhl wies uns auf einen Fehler in der ersten Aufgabe der dritten Lernaktivität hin: Unser Ziel war es, die Schildkröten zu gleichmäßigen Teilen in drei verschiedenen Farben zu färben. Hierzu hatten wir "random"-Blöcke benutzt, mit denen zuerst ein Drittel der Schildkröten grün gefärbt wurde. Mit einem zweiten Block haben wir wieder ein Drittel Lila gefärbt. Hierbei haben wir nicht bedacht, dass im Endergebnis dann zwar ein Drittel der Schildkröten lila ist, dafür aber mehr als ein Drittel die ursprüngliche Farbe behält, während weniger als ein Drittel grün bleibt.
+
+Um den Fehler zu beheben, haben wir zunächst die Hälfte der Schildkröten grün gefärbt, und dann ein Drittel der gesamten Schildkröten lila. Auf diese Weise haben wir erreicht, dass am Ende jeweils ungefähr ein Drittel der Schildkröten die gleiche Farbe hat.
+
+![Screenshot01](Bilder/Screenshot.sltng.19.png "sltng")
 
 
