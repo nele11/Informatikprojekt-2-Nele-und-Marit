@@ -16,6 +16,8 @@
 
 [19/01/18, 12. und 13. Stunde](#8)
 
+[24/01/18, 14. Stunde](#9)
+
 
 
 ## Erste Stunde <a name="1"></a>
@@ -171,3 +173,9 @@ Damit er dann auch die Burg betreten kann, haben wir einen zweiten Kollisionsblo
 Um unser Spiel zu vervollständigen haben wir zuletzt noch unter dem Kollisionsblock des Elefanten mit der Burg einen "say"-Block für die Burg hinzugefügt. Wenn der Elefant nun mit der Burg kollidiert, sieht es so aus, als würde er die Burg betreten, und von innen "Juhuu!! Mission completed." rufen.
 
 ![Screenshot01](Bilder/Screenshot.sltng.18.png "sltng")
+
+
+## Vierzehnte Stunde <a name="9"></a>
+
+
+
