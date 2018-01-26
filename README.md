@@ -18,6 +18,7 @@
 
 [24/01/18, 14. Stunde](#9)
 
+[26/01/18, 15. Stunde](#10)
 
 
 ## Erste Stunde <a name="1"></a>
@@ -71,7 +72,7 @@ Die Aufgabe bestand darin, die Schildkröten verschwinden zu lassen, wenn sie si
 
 ![Screenshot01](Bilder/Screenshot.sltng.7.png "sltng")
 
-(Verbesserung des Fehlers s.vierzehnte Stunde)
+Verbesserung des Fehlers siehe vierzehnte Stunde.
 
 ## Sechste Stunde <a name="4"></a>
 
@@ -185,3 +186,4 @@ Um den Fehler zu beheben, haben wir zunächst die Hälfte der Schildkröten grü
 ![Screenshot01](Bilder/Screenshot.sltng.19.png "sltng")
 
 
+## Fünfzehnte Stunde <a name="10"></a>
