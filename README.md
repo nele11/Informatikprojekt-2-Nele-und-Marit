@@ -188,4 +188,10 @@ Um den Fehler zu beheben, haben wir zunächst die Hälfte der Schildkröten grü
 
 ## Fünfzehnte Stunde <a name="10"></a>
 
+### Lernaktivität sechs:
+
+Das Ziel dieser Lernaktivität besteht darin, eine Ego-Shooter zu programmieren, in dem ein Agent mit Paintbällen auf andere Agenten schießt, welche dann die Farbe des Balles annehmen.
+
+Hierzu lernten wir zuerst
+![Screenshot01](Bilder/Screenshot.sltng.20.png "sltng")
 
