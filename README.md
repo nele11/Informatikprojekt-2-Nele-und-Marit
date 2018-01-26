@@ -59,6 +59,7 @@ Um drei verschiedene Farben zu erhalten haben wir zusätzlich zwei "if"-Blöcke 
 ![Screenshot01](Bilder/Screenshot.sltng.4.png "sltng")
 
 ![Screenshot01](Bilder/Screenshot.sltng.5.png "sltng")
+Verbesserung des Fehlers siehe vierzehnte Stunde.
 
 #### Aufgabe zwei
 
@@ -72,7 +73,6 @@ Die Aufgabe bestand darin, die Schildkröten verschwinden zu lassen, wenn sie si
 
 ![Screenshot01](Bilder/Screenshot.sltng.7.png "sltng")
 
-Verbesserung des Fehlers siehe vierzehnte Stunde.
 
 ## Sechste Stunde <a name="4"></a>
 
