@@ -210,5 +210,6 @@ Damit der Paintball sich bewegt haben wir eine neue Prozedur erstellt, die wir "
 ![Screenshot01](Bilder/Screenshot.sltng.23.png "sltng")
 
 Als nächstes erstellten wir eine Kollisionsblock, für eine Kollision zwischen den Paintbällen und den Giraffen. Wir benutzen einen "setColor"-Block, um die Giraffe rot zu färben, nachdem sie von einem Paintball getroffen wurde. Damit der Paintball dann  verschwindet benutzten wir einen "die"-Block:
+
 ![Screenshot01](Bilder/Screenshot.sltng.21.png "sltng")
 
