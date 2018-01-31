@@ -193,9 +193,18 @@ Um den Fehler zu beheben, haben wir zunächst die Hälfte der Schildkröten grü
 ### Lernaktivität sechs:
 
 Das Ziel dieser Lernaktivität besteht darin, eine Ego-Shooter zu programmieren, in dem ein Agent mit Paintbällen auf andere Agenten schießt, welche dann die Farbe des Balles annehmen.
+Zuerst haben wir zwei neue Agentenarten, den Paintball und den Luigi erstellt. Im "Setup"-Bereich erstellten wir nun einen Luigi.
 
-Hierzu lernten wir zuerst
+Als nächstes lernten wir, mit Hilfe der "hatch"-Funktion einen zweiten Luigi zu erzeugen, wenn die "space"-Taste gedrückt wird. Wir legten die Position dieses Luigis mit einem "forward"- und einem "setAltitude"-Block fest. Danach änderten wir die Rasse des Agenten in "Paintball" und färbten ihn mit Hilfe des "setColor"-Blockes grün.
 ![Screenshot01](Bilder/Screenshot.sltng.20.png "sltng")
 
 
 ## Sechzehnte Stunde <a name="11"></a>
+
+Als erstes änderten wir heute die Farbe des Paintballs von grün zu rot, damit man ihn vor dem grünen Hintergrund besser sieht.
+Außerdem änderten wir seine Größe mit Hilfe eines "setSize"-Blockes von 1 auf 0,2.
+
+
+
+
+
