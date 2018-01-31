@@ -205,6 +205,6 @@ Als erstes änderten wir heute die Farbe des Paintballs von grün zu rot, damit 
 Außerdem änderten wir seine Größe mit Hilfe eines "setSize"-Blockes von 1 auf 0,2.
 
 
-
-
-
+![Screenshot01](Bilder/Screenshot.sltng.21.png "sltng")
+![Screenshot01](Bilder/Screenshot.sltng.22.png "sltng")
+![Screenshot01](Bilder/Screenshot.sltng.23.png "sltng")
