@@ -204,7 +204,11 @@ Als nächstes lernten wir, mit Hilfe der "hatch"-Funktion einen zweiten Luigi zu
 Als erstes änderten wir heute die Farbe des Paintballs von grün zu rot, damit man ihn vor dem grünen Hintergrund besser sieht.
 Außerdem änderten wir seine Größe mit Hilfe eines "setSize"-Blockes von 1 auf 0,2.
 
+Damit der Paintball sich bewegt haben wir eine neue Prozedur erstellt, die wir "fliegen" genannt haben. Zusätzlich haben wir eine neue Agentenart, die Giraffen, erstellt. Im "setup"-Bereich haben wir dann programmiert, dass 25 weiße Giraffen erstellt werden. Auch für die Giraffen erstellten wir eine Prozedur, die wir "bewegen" nannten. Hier programmierten wir, dass die Giraffen sich relativ zufällig im Spaceland bewegen.
 
-![Screenshot01](Bilder/Screenshot.sltng.21.png "sltng")
 ![Screenshot01](Bilder/Screenshot.sltng.22.png "sltng")
 ![Screenshot01](Bilder/Screenshot.sltng.23.png "sltng")
+
+Als nächstes erstellten wir eine Kollisionsblock, für eine Kollision zwischen den Paintbällen und den Giraffen. Wir benutzen einen "setColor"-Block, um die Giraffe rot zu färben, nachdem sie von einem Paintball getroffen wurde. Damit der Paintball dann  verschwindet benutzten wir einen "die"-Block:
+![Screenshot01](Bilder/Screenshot.sltng.21.png "sltng")
+
