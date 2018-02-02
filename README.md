@@ -22,6 +22,8 @@
 
 [31/01/18, 16. Stunde](#11)
 
+[02/02/18, 17. und 18. Stunde](#12)
+
 
 ## Erste Stunde <a name="1"></a>
 
@@ -213,3 +215,10 @@ Als nächstes erstellten wir eine Kollisionsblock, für eine Kollision zwischen 
 
 ![Screenshot01](Bilder/Screenshot.sltng.21.png "sltng")
 
+
+## Siebzehnte und Achzehnte Stunde <a name="12"></a> (Doppelstunde)
+
+So wie wir unser Programm programmierten funktionierte es zwar, allerdings bewegten die Giraffen sich sehr viel schneller als Luigi und die Paintbälle. Dies lag an der Art, auf die wir die Bewegung der Giraffen programmiert hatten. Wir ließen sie willkürlich bis zu hundert Schritte auf einmal gehen, während Sowohl Luigi, als auch die Paintbälle immer nur einen Schritt zur Zeit gingen. Um das Problem zu beheben änderten wir also die Schrittzahl der Giraffen ebenfalls auf eins und verkleinerten die Gradzahlen, um die sie sich ufällig drehten. Um unser Programm übersichtlicher zu gestalten, fassten wir außerdem die beiden Befehle für die Links-, beziehungsweise die Rechtsdrehung zu einem Befehl zusammen. Hierzu benutzen wir nur einen "right"-Block, und benutzen einen "random"- und einen "math"-Block, damit die Giraffen sich willkürlich um -90° bis +90° drehen:
+
+![Screenshot01](Bilder/Screenshot.sltng.25.png "sltng")
+![Screenshot01](Bilder/Screenshot.sltng.24.png "sltng")
