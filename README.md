@@ -225,6 +225,8 @@ So wie wir unser Programm programmierten funktionierte es zwar, allerdings beweg
 ### Lernaktivität sieben
 
 Die Aufgabe dieser Lernaktivität bestand darin, unser Paintball-Spiel weiter zu entwickeln.
+
+Wir entschlossen uns dazu, noch eine weitere Agentenart, die Löwen, zu erstellen. Diese sollten Luigi fressen können. Wenn ein Löwe Luigi frisst, sollte das Spiel vorbei sein.
 ![Screenshot01](Bilder/Screenshot.sltng.27.png "sltng")
-![Screenshot01](Bilder/Screenshot.sltng.29.png "sltng")
 ![Screenshot01](Bilder/Screenshot.sltng.28.png "sltng")
+![Screenshot01](Bilder/Screenshot.sltng.26.png "sltng")
