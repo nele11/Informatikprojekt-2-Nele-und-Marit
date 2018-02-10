@@ -98,7 +98,7 @@ Die Aufgabe bestand darin, die Schildkröten verschwinden zu lassen, wenn sie si
 
 #### Aufgabe eins
 
-Wir benutzen den "clear everyone"-Block, um alle Agenten zu entfernen. Dann entferne wir den Block, der Schildkröten kreiert aus dem "setup"-Block. Nun wird nur noch ein Elefant erstellt.
+Wir benutzen den "clear everyone"-Block, um alle Agenten zu entfernen. Dann entfernten wir den Block der Schildkröten. Nun hatten wir nur noch einen Elefanten, den wir programmieren können. Der Elefant besitzt die Farbe grau.
 
 ![Screenshot01](Bilder/Screenshot.sltng.8.png "sltng")
 
@@ -106,8 +106,10 @@ Wir benutzen den "clear everyone"-Block, um alle Agenten zu entfernen. Dann entf
 
 Die zweite Aufgabe bestand darin, einen Actor so zu programmieren, dass er sich mit den Pfeiltasten steuern lässt. Hierzu benutzten wir im "forever"-Bereich mehrere "if-test-then"-Blöcke. Als if-Bedingung setzten wir die jeweiligen Pfeiltasten ein.
 In den Block für die rechte Pfeiltaste setzten wir unter "then" den Befehl, sich um 90° nach rechts zu drehen, und dann einen Schritt nach vorne zu gehen.
+
 Für die linke Pfeiltaste setzten wir die selben Blöcke ein, mit einer Drehung nach links anstelle von rechts.
 In den "then"-Bereich des "if"-Blockes für die obere Pfeiltaste setzen wir nur den Befehl "forward" ein, kombiniert mit dem Parameter 1.
+
 Für die untere Pfeiltaste programmierten wir, dass der Agent sich rückwärts bewegt.
 
 Aktiviert man nun im Spaceland den "forever"-Block, so lässt der Elefant sich mit den Pfeiltasten steuern. Drückt man die rechte oder linke Pfeiltaste, so dreht er sich in die entsprechende Richtung, um ihn aber beispielsweise nach rechts laufen zu lassen, muss man zunächst einmal die rechte Pfeiltaste und dann die obere drücken. Würde man nur die rechte mehrmals drücken, so würde er objektiv von oben betrachten nicht nach rechts laufen, sondern sich nur immer wieder um 90° nach rechts drehen, und dann einen Schritt nach vorne machen.
@@ -117,9 +119,11 @@ Aktiviert man nun im Spaceland den "forever"-Block, so lässt der Elefant sich m
 
 ## Siebte und achte Stunde Stunde <a name="5"></a> (Doppelstunde)
 
-Zunächst haben wir die Benotung unserer ersten Projekte erhalten.
-Danach haben wir uns mit der Klasse gemeinsam einen Text der Verfasser von "TheBeautyAndJoyOfComputing" angeguckt.
-Anschließen haben wir die vierte Lernaktivitat unseres Projektes fortgeführt.
+Zunächst haben wir die Benotung unserer ersten Projekte erhalten. Wir konnten fragen stellen und uns Teilbenotungen näher erläutern lassen.
+
+Danach haben wir uns mit der Klasse gemeinsam einen Text der Verfasser von "TheBeautyAndJoyOfComputing" angeguckt, da Herr Buhl uns das Programm für die nächste Projekteinheit vorstellen wollte. 
+
+Anschließend haben wir die vierte Lernaktivitat unseres Projektes fortgeführt.
 
 #### Aufgabe drei
 
