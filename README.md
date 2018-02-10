@@ -241,7 +241,7 @@ Als nächstes erstellten wir eine Kollisionsblock, für eine Kollision zwischen 
 
 So wie wir unser Programm programmierten, funktionierte es zwar, allerdings bewegten die Giraffen sich sehr viel schneller als Luigi und die Paintbälle. Dies lag an der Art, auf die wir die Bewegung der Giraffen programmiert hatten. Wir ließen sie willkürlich bis zu hundert Schritte auf einmal gehen, während sowohl Luigi, als auch die Paintbälle immer nur einen Schritt zur Zeit gingen.
 
-Um das Problem zu beheben änderten wir also die Schrittzahl der Giraffen ebenfalls auf eins und verkleinerten die Gradzahlen, um die sie sich zufällig drehten. Um unser Programm übersichtlicher zu gestalten, fassten wir außerdem die beiden Befehle für die Links-, beziehungsweise die Rechtsdrehung zu einem Befehl zusammen. Hierzu benutzen wir nur einen "right"-Block, und benutzen einen "random"- und einen "math"-Block, damit die Giraffen sich willkürlich um -90° bis +90° drehen.
+Um das Problem zu beheben änderten wir also die Schrittzahl der Giraffen ebenfalls auf eins und verkleinerten die Gradzahlen, um die sie sich zufällig drehten. Um unser Programm übersichtlicher zu gestalten, fassten wir außerdem die beiden Befehle für die Links-, beziehungsweise die Rechtsdrehung zu einem Befehl zusammen. Hierzu benutzen wir nur einen "right"-Block, und benutzen einen "random"- und einen "math"-Block, damit die Giraffen sich willkürlich um -90° bis +90° drehen. Zusätzlich fürten wir hinzu, dass die Giraffen den Drehwinkel ein Form eines "say- Blocks" angaben.
 
 ![Screenshot01](Bilder/Screenshot.sltng.25.png "sltng")
 
@@ -250,6 +250,7 @@ Um das Problem zu beheben änderten wir also die Schrittzahl der Giraffen ebenfa
 Die Aufgabe dieser Lernaktivität bestand darin, unser Paintball-Spiel weiter zu entwickeln.
 
 Wir entschlossen uns dazu, noch eine weitere Agentenart, die Löwen, zu erstellen. Diese sollten Luigi fressen können. Wenn ein Löwe Luigi frisst, sollte das Spiel vorbei sein.
+
 ![Screenshot01](Bilder/Screenshot.sltng.27.png "sltng")
 ![Screenshot01](Bilder/Screenshot.sltng.28.png "sltng")
 ![Screenshot01](Bilder/Screenshot.sltng.26.png "sltng")
