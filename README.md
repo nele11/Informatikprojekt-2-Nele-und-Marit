@@ -251,10 +251,14 @@ Die Aufgabe dieser Lernaktivität bestand darin, unser Paintball-Spiel mit eigen
 
 Wir entschlossen uns dazu, noch eine weitere Agentenart, die Löwen, zu erstellen. Diese sollten Luigi fressen können. Wenn ein Löwe Luigi frisst, sollte das Spiel vorbei sein.
 
-![Screenshot01](Bilder/Screenshot.sltng.27.png "sltng")
-
 Da alle Agent aus einem Punkt starten, fügten wir bei den Löwen im "set-up Bereich" eine x bzw. y Koordinate ein, damit diese nicht zu Beginn des Spieles die Giraffen fraßen. Außerdem färbten wir die Giraffen weiss und die Löwen schwarz, damit der Spieler eine bessere Übersicht hat.
 
+![Screenshot01](Bilder/Screenshot.sltng.27.png "sltng")
+
+Im "Forever- Block" setzten wir bei Luigi die Variable, dass wenn der nicht tot ist, dieser laufen und schießen kann. Di Löwen und Giraffen sind unabhänig und bewegen sich zufällig durch den Raum. Das Feuer braucht die Bestätigung "LuigiTot", um zu erscheinen.
+
 ![Screenshot01](Bilder/Screenshot.sltng.28.png "sltng")
+
+Mit der "Hatch-Funktion" kreierten wir nochmals einen Luigi, der in ein Breed: "Feuer" umgeändert wurde. Dieses tritt auf, wenn Luigi von einem Löwen gegessen wurde. Jedoch tritt das nur auf, wenn die Variable in der Hatch-Funktion "LuigisetTot" auf "true" steht. Mit einem "say- Block" liesen wir das Feuer: "Gameover", sagen, damit das Spiel zu Ende ist und der Spieler signalisiert bekommt, dass dieser verloren hat. 
 
 ![Screenshot01](Bilder/Screenshot.sltng.26.png "sltng")
