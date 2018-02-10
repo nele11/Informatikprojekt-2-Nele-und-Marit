@@ -35,17 +35,18 @@ Zuerst haben wir uns mit dem Spaceland vertraut gemacht, und gelernt, wie wir zw
 
 ### Lernaktivität eins:
 
-In der ersten Lernaktivität haben wir zwei verschiedene Agentenarten erstellt: Schildkröten und Elefanten.
+In der ersten Lernaktivität haben wir zwei verschiedene Agentenarten erstellt: eine Schildkröte und einen Elefanten.
 Dann haben wir die Schildkröte mit Hilfe des "forever"-Blocks immer im Quadrat laufen lassen:
 
 ![Screenshot01](Bilder/Screenshot.sltng.1.png "sltng")
-(Hierbei geht der Agent immer geradeaus und dreht danach um 90 Grad.)
+(Hierbei geht der Agent immer zwei Schritte geradeaus und dreht danach um 90 Grad.)
 
 ### Lernaktivität zwei:
 
-Zunächst haben wir eine Variable definiert, die eine bestimmte Anzahl von Schildkröten erzeugt. Um die Variable zu benutzen setzten wir sie unter den "setup"-Block. Den Slider fügen wir im Schildkröten Feld hinzu. Damit die Schildkröten sich zufällig im Spaceland bewegen benutzen wir zwei random-Blöcke:
+Zunächst haben wir eine Variable definiert, die eine bestimmte Anzahl von Schildkröten erzeugt. Um die Variable zu benutzen setzten wir sie unter den "setup"-Block. Den Slider fügen wir im Schildkröten Feld hinzu. Damit die Schildkröten sich zufällig im Spaceland bewegt, benutzen wir zwei "random-Blöcke":
 
 ![Screenshot01](Bilder/Screenshot.sltng.2.png "sltng")
+(Die Schildkröte läuft zufällt Schritte. Dass geschied da das Programm eine Zahl zwischen 0-100 auswählt. Dies hat zur Folge, dass die Schildkröten teilweise größere Sprünge in ihrer Schrittfolge hat.Zusätzlich dreht diese sich zufällig in einer Winkelspanne von 0-360 Grad. So hat sie die möglichkeit sich komplett um die eigene Achse zu drehen.)
 
 Um die Schildkröten miteinander sprechen zu lassen, wenn sie aufeinandertreffen, haben wir einen "collision"-Block benutzt. In diesen haben wir zwei "say"-Blöcke benutzt:
 
