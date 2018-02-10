@@ -48,9 +48,9 @@ Zunächst haben wir eine Variable definiert, die eine bestimmte Anzahl von Schil
 
 ![Screenshot01](Bilder/Screenshot.sltng.2.png "sltng")
 
-Die Schildkröte läuft zufällig Schritte. Dass geschied da das Programm eine Zahl zwischen 0-100 auswählt. Dies hat zur Folge, dass die Schildkröten teilweise größere Sprünge in ihrer Schrittfolge hat.Zusätzlich dreht diese sich zufällig in einer Winkelspanne von 0-360 Grad. So hat sie die möglichkeit sich komplett um die eigene Achse zu drehen.
+Die Schildkröte läuft zufällig Schritte. Dass geschied da das Programm eine Zahl zwischen 0-100 auswählt. Dies hat zur Folge, dass die Schildkröten teilweise größere Sprünge in ihrer Schrittfolge hat. Zusätzlich dreht diese sich zufällig in einer Winkelspanne von 0-360 Grad. So hat sie die Möglichkeit sich komplett um die eigene Achse zu drehen.
 
-Um die Schildkröten nun miteinander sprechen zu lassen, wenn sie aufeinandertreffen, haben wir einen "collision-Block" benutzt. In diesem haben wir zwei "say"-Blöcke benutzt:
+Um die Schildkröten nun miteinander sprechen zu lassen, wenn sie aufeinandertreffen, haben wir einen "collision-Block" benutzt. In diesem haben wir zwei "say"-Blöcke verwendet:
 
 ![Screenshot01](Bilder/Screenshot.sltng.3.png "sltng")
 
@@ -63,13 +63,19 @@ Wenn jetzt eine Schildkröte mit einem Elfanten aufeinander trifft, sagt die Sch
 
 #### Aufgabe eins
 
-Zunächst haben Wir einen "create-do"-Block verwendet, um alle Schildkröten Rot zu färben. 
-Um drei verschiedene Farben zu erhalten haben wir zusätzlich zwei "if"-Blöcke und Variablen benutzt:
+Zunächst haben wir einen "create-do"-Block verwendet, um alle 100 Schildkröten rot zu färben. 
 
 ![Screenshot01](Bilder/Screenshot.sltng.4.png "sltng")
 
+Wird die Schildkröte nun angeklickt sagt sie, welche Farbe sie hat. Außerdem lässt sich im snap view verfolgen, wie viel der Schildkröten (hier alle) rot gefärbt sind.
+
+Um drei verschiedene Farben zu erhalten, haben wir zusätzlich zwei "if"-Blöcke und Variablen benutzt.
+
 ![Screenshot01](Bilder/Screenshot.sltng.5.png "sltng")
-Verbesserung des Fehlers siehe vierzehnte Stunde.
+
+Im vorangestellten Screenshot sind zunächst alle Schildkröten rot gefärbt worden. Von diesen roten Agenten wurden im folgenden Schritt 1/3 grün gefärbt. Um nun drei Farben zu erhalten, färbten wir von dem Drittel wieder 1/3 lila.
+
+Um nun jedoch von jeder Farbe 1/3 zu erhalten, wendenten wir einen anderen Ansatz an. (Siehe vierzehnte Stunde.)
 
 #### Aufgabe zwei
 
