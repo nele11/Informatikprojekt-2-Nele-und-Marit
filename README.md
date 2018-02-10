@@ -67,25 +67,27 @@ Zunächst haben wir einen "create-do"-Block verwendet, um alle 100 Schildkröten
 
 ![Screenshot01](Bilder/Screenshot.sltng.4.png "sltng")
 
-Wird die Schildkröte nun angeklickt sagt sie, welche Farbe sie hat. Außerdem lässt sich im snap view verfolgen, wie viel der Schildkröten (hier alle) rot gefärbt sind.
+Wird die Schildkröte nun angeklickt sagt sie, welche Farbe sie hat. Außerdem lässt sich im swap view verfolgen, wie viel der Schildkröten (hier alle) rot gefärbt sind.
 
-Um drei verschiedene Farben zu erhalten, haben wir zusätzlich zwei "if"-Blöcke und Variablen benutzt.
+Um drei verschiedene Farben zu erhalten, haben wir zusätzlich zwei "if"-Blöcke und eine Variablen benutzt.
 
 ![Screenshot01](Bilder/Screenshot.sltng.5.png "sltng")
 
 Im vorangestellten Screenshot sind zunächst alle Schildkröten rot gefärbt worden. Von diesen roten Agenten wurden im folgenden Schritt 1/3 grün gefärbt. Um nun drei Farben zu erhalten, färbten wir von dem Drittel wieder 1/3 lila.
 
-Um nun jedoch von jeder Farbe 1/3 zu erhalten, wendenten wir einen anderen Ansatz an. (Siehe vierzehnte Stunde.)
+Um nun jedoch von jeder Farbe 1/3 zu erhalten, wendenten wir einen anderen Ansatz. (Siehe vierzehnte Stunde.)
 
 #### Aufgabe zwei
 
-Wir benutzten einen "collision"-Block, damit die Schildkröten gelb werden, wenn sie sich treffen:
+Wir benutzten einen "collision"-Block, damit die Schildkröten gelb werden, wenn sie aufeinander stoßen:
 
 ![Screenshot01](Bilder/Screenshot.sltng.6.png "sltng")
 
+Hierbei sind zunächst alle Schildkröten Agenten rot und werden durch die Collisionen gelb.
+
 #### Aufgabe drei
 
-Die Aufgabe bestand darin, die Schildkröten verschwinden zu lassen, wenn sie sich treffen. Hierzu haben wir einen "if-then"-Block benutzt. Als Bedingung haben wir nun eingesetzt, dass die Schildkröte die gleiche Farbe hat, wie die mit der sie kollidiert. In diesem Fall soll die Schildkröte sterben.
+Die Aufgabe bestand darin, die Schildkröten verschwinden zu lassen, wenn sie sich treffen. Hierzu haben wir einen "if-then"-Block benutzt. Als Bedingung haben wir eingesetzt, dass wenn die Schildkröte die gleiche Farbe habt, wie die mit der sie kollidiert, sollen diese sterben. Da die Schildkröten durch das gesamte Spaceland laufen treffen diese sich nach einer gewissen Zeit alle, so dass keine Schildkröten mehr vorhanden sind.
 
 ![Screenshot01](Bilder/Screenshot.sltng.7.png "sltng")
 
