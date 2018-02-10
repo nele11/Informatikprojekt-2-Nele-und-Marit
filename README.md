@@ -247,10 +247,14 @@ Um das Problem zu beheben änderten wir also die Schrittzahl der Giraffen ebenfa
 
 ### Lernaktivität sieben
 
-Die Aufgabe dieser Lernaktivität bestand darin, unser Paintball-Spiel weiter zu entwickeln.
+Die Aufgabe dieser Lernaktivität bestand darin, unser Paintball-Spiel mit eigenen Ideen weiter zu entwickeln.
 
 Wir entschlossen uns dazu, noch eine weitere Agentenart, die Löwen, zu erstellen. Diese sollten Luigi fressen können. Wenn ein Löwe Luigi frisst, sollte das Spiel vorbei sein.
 
 ![Screenshot01](Bilder/Screenshot.sltng.27.png "sltng")
+
+Da alle Agent aus einem Punkt starten, fügten wir bei den Löwen im "set-up Bereich" eine x bzw. y Koordinate ein, damit diese nicht zu Beginn des Spieles die Giraffen fraßen. Außerdem färbten wir die Giraffen weiss und die Löwen schwarz, damit der Spieler eine bessere Übersicht hat.
+
 ![Screenshot01](Bilder/Screenshot.sltng.28.png "sltng")
+
 ![Screenshot01](Bilder/Screenshot.sltng.26.png "sltng")
