@@ -175,37 +175,37 @@ Damit die Richtungssteuerung mit den Pfeiltasten deaktiviert wird, wenn der Elef
 
 ## Elfte Stunde <a name="7"></a> 
 
-Die heutige Stunde haben wir damit verbracht, zuerst den Stundenblock der letzten Stunde zu vervollständigen.
-Da die letzte Stunde vor den Ferien war, mussten wir uns wieder in das Programm einarbeiten, und uns ins Gedächtnis rufen, was wir bisher gemacht hatten.
+Die heutige Stunde haben wir damit verbracht, zuerst den Stundenblock der letzten Stunden zu vervollständigen.
+Da dies die erste Stunde nach den Ferien war, mussten wir uns wieder in das Programm einarbeiten, und uns ins Gedächtnis rufen, was wir bisher gemacht hatten.
 
-Außerdem haben wir eine Burg als neuen Agenten erstellt.
+Danach arbeiteten wir an der fünften Lernaktivität weiter: Wir erstellten eine Burg, als neuen Agenten.
 
 ## Zwölfte und Dreizehnte Stunde <a name="8"></a> (Doppelstunde)
 
-Zuerst zeigte uns Herr Buhl eine Möglichkeit, die Kollisionen des Elefanten mit den unterschiedlichen Bäumen platzsparender und übersichtlicher zu programmieren: Wir erstellten eine neue "Procedure", welche wir "climbTree" nannten. Hierunter haben wir dann den Block, der die Steuerung des Elefanten bei Kollision mit einem Baum programmiert gesetzt. In die Kollisionsblöcke konnten wir dann einfach den "climbTree"-Block setzten.
+Zuerst zeigte uns Herr Buhl eine Möglichkeit, die Kollisionen des Elefanten mit den unterschiedlichen Bäumen platzsparender und übersichtlicher zu programmieren: Wir erstellten eine neue "Procedure", welche wir "climbTree" nannten. Hierunter haben wir dann den Block, der die Steuerung des Elefanten bei Kollision mit einem Baum programmiert, gesetzt. In die Kollisionsblöcke konnten wir dann einfach den "climbTree"-Block setzten.
 
 ![Screenshot01](Bilder/Screenshot.sltng.16.png "sltng")
 
-Als nächsten haben wir weiter daran gearbeitet, dass Spiel aus der Lernaktivität zu programmieren. Hierzu haben wir zunächst einen neuen Agenten, die Karotte, erstellt. Sie soll im weiteren Verlauf des Spieles als Schlüssel für die Burg fungieren.
+Als nächstes haben wir weiter daran gearbeitet, dass Spiel aus der Lernaktivität zu programmieren. Hierzu haben wir zunächst einen neuen Agenten, die Karotte, erstellt. Sie soll im weiteren Verlauf des Spieles als Schlüssel für die Burg fungieren.
 
 Im "setup"-Bereich haben wir dann Befehle hinzugefügt, die eine Karotte und eine Burg erstellen.
-Dann haben wir einen neuen Kollisionsblock zwischen dem Elefanten und der Karotte erstellt. Mit dem "die"-Block haben wir programmiert, dass die Karotte bei einem Zusammenstoß verschwindet. Außerdem erstellten wir den Boolean "hatKarotte" für den Elefanten. Im "setup"-Berich legten wir fest, dass dieser am Anfang des Spieles als "false" wiedergegeben wird. Unter dem eben erwähnten Kollisionsblock legten wir fest, dass der Boolean wenn die beiden Agenten zusammenstoßen auf "true" gesetzt wird.
+Dann haben wir einen neuen Kollisionsblock zwischen dem Elefanten und der Karotte erstellt. Mit dem "die"-Block haben wir programmiert, dass die Karotte bei einem Zusammenstoß verschwindet. Außerdem erstellten wir den Boolean "hatKarotte" für den Elefanten. Im "setup"-Berich legten wir fest, dass dieser am Anfang des Spieles als "false" wiedergegeben wird. Unter dem eben erwähnten Kollisionsblock legten wir fest, dass der Boolean, wenn die beiden Agenten zusammenstoßen, auf "true" gesetzt wird.
 So haben wir programmiert, dass der Elefant die Karotte aufsammeln kann.
 
-Damit er dann auch die Burg betreten kann, haben wir einen zweiten Kollisionsblock benutzt. Mit Hilfe eines "if-test-then"-Blockes ließen wir dass Programm testen, ob der Boolean "hatKarotte" als "true" wiedergegeben wird. Ist dies der Fall, so lassen wir den Elefanten mit dem "die"-Block verschwinden, also die Burg betreten.#
+Damit er dann auch die Burg betreten kann, haben wir einen zweiten Kollisionsblock benutzt. Mit Hilfe eines "if-test-then"-Blockes ließen wir dass Programm testen, ob der Boolean "hatKarotte" als "true" wiedergegeben wird. Ist dies der Fall, so lassen wir den Elefanten mit dem "die"-Block verschwinden, also die Burg betreten.
 
 ![Screenshot01](Bilder/Screenshot.sltng.17.png "sltng")
 
-Um unser Spiel zu vervollständigen haben wir zuletzt noch unter dem Kollisionsblock des Elefanten mit der Burg einen "say"-Block für die Burg hinzugefügt. Wenn der Elefant nun mit der Burg kollidiert, sieht es so aus, als würde er die Burg betreten, und von innen "Juhuu!! Mission completed." rufen.
+Um unser Spiel zu vervollständigen, haben wir zuletzt noch unter dem Kollisionsblock des Elefanten mit der Burg einen "say"-Block für die Burg hinzugefügt. Wenn der Elefant nun mit der Burg kollidiert, sieht es so aus, als würde er die Burg betreten, und von innen "Juhuu!! Mission completed." rufen.
 
 ![Screenshot01](Bilder/Screenshot.sltng.18.png "sltng")
 
 
 ## Vierzehnte Stunde <a name="9"></a>
 
-Herr Buhl wies uns auf einen Fehler in der ersten Aufgabe der dritten Lernaktivität hin: Unser Ziel war es, die Schildkröten zu gleichmäßigen Teilen in drei verschiedenen Farben zu färben. Hierzu hatten wir "random"-Blöcke benutzt, mit denen zuerst ein Drittel der Schildkröten grün gefärbt wurde. Mit einem zweiten Block haben wir wieder ein Drittel Lila gefärbt. Hierbei haben wir nicht bedacht, dass im Endergebnis dann zwar ein Drittel der Schildkröten lila ist, dafür aber mehr als ein Drittel die ursprüngliche Farbe behält, während weniger als ein Drittel grün bleibt.
+Herr Buhl wies uns auf einen "Fehler" in der ersten Aufgabe der dritten Lernaktivität hin: Unser gedankliches Ziel war es, die Schildkröten zu gleichmäßigen Teilen in drei verschiedenen Farben zu färben. Hierzu hatten wir "random"-Blöcke benutzt, mit denen zuerst ein Drittel der Schildkröten grün gefärbt wurde. Mit einem zweiten Block haben wir wieder ein Drittel Lila gefärbt. Hierbei haben wir nicht bedacht, dass im Endergebnis dann zwar ein Drittel der Schildkröten lila ist, dafür aber mehr als ein Drittel die ursprüngliche Farbe behält, während weniger als ein Drittel grün bleibt.
 
-Um den Fehler zu beheben, haben wir zunächst die Hälfte der Schildkröten grün gefärbt, und dann ein Drittel der gesamten Schildkröten lila. Auf diese Weise haben wir erreicht, dass am Ende jeweils ungefähr ein Drittel der Schildkröten die gleiche Farbe hat.
+Um dies zu beheben, haben wir zunächst die Hälfte der Schildkröten grün gefärbt, und dann ein Drittel der gesamten Schildkröten lila. Auf diese Weise haben wir erreicht, dass am Ende jeweils ungefähr ein Drittel der Schildkröten die gleiche Farbe hat.
 
 ![Screenshot01](Bilder/Screenshot.sltng.19.png "sltng")
 
@@ -217,7 +217,8 @@ Um den Fehler zu beheben, haben wir zunächst die Hälfte der Schildkröten grü
 Das Ziel dieser Lernaktivität besteht darin, eine Ego-Shooter zu programmieren, in dem ein Agent mit Paintbällen auf andere Agenten schießt, welche dann die Farbe des Balles annehmen.
 Zuerst haben wir zwei neue Agentenarten, den Paintball und den Luigi erstellt. Im "Setup"-Bereich erstellten wir nun einen Luigi.
 
-Als nächstes lernten wir, mit Hilfe der "hatch"-Funktion einen zweiten Luigi zu erzeugen, wenn die "space"-Taste gedrückt wird. Wir legten die Position dieses Luigis mit einem "forward"- und einem "setAltitude"-Block fest. Danach änderten wir die Rasse des Agenten in "Paintball" und färbten ihn mit Hilfe des "setColor"-Blockes grün.
+Als nächstes lernten wir, mit Hilfe der "hatch"-Funktion einen zweiten Luigi zu erzeugen, wenn die "space"-Taste gedrückt wird. Wir legten die Position dieses Luigis mit einem "forward"- und einem "setAltitude"-Block fest. Somit startet der zweite Luigi einen Schritt nach vorne und oben. Danach änderten wir die Rasse des Agenten in "Paintball" und färbten ihn mit Hilfe des "setColor"-Blockes grün.
+
 ![Screenshot01](Bilder/Screenshot.sltng.20.png "sltng")
 
 
@@ -231,14 +232,16 @@ Damit der Paintball sich bewegt haben wir eine neue Prozedur erstellt, die wir "
 ![Screenshot01](Bilder/Screenshot.sltng.22.png "sltng")
 ![Screenshot01](Bilder/Screenshot.sltng.23.png "sltng")
 
-Als nächstes erstellten wir eine Kollisionsblock, für eine Kollision zwischen den Paintbällen und den Giraffen. Wir benutzen einen "setColor"-Block, um die Giraffe rot zu färben, nachdem sie von einem Paintball getroffen wurde. Damit der Paintball dann  verschwindet benutzten wir einen "die"-Block:
+Als nächstes erstellten wir eine Kollisionsblock, für eine Kollision zwischen den Paintbällen und den Giraffen. Wir benutzen einen "setColor"-Block, um die Giraffe rot zu färben, nachdem sie von einem Paintball getroffen wurde. Da die Giraffen nur eine Hülle besitzen kann die neu angenommende Farbe von Spieler gesehen werden. Damit der Paintball dann verschwindet benutzten wir einen "die"-Block.
 
 ![Screenshot01](Bilder/Screenshot.sltng.21.png "sltng")
 
 
 ## Siebzehnte und Achzehnte Stunde <a name="12"></a> (Doppelstunde)
 
-So wie wir unser Programm programmierten funktionierte es zwar, allerdings bewegten die Giraffen sich sehr viel schneller als Luigi und die Paintbälle. Dies lag an der Art, auf die wir die Bewegung der Giraffen programmiert hatten. Wir ließen sie willkürlich bis zu hundert Schritte auf einmal gehen, während Sowohl Luigi, als auch die Paintbälle immer nur einen Schritt zur Zeit gingen. Um das Problem zu beheben änderten wir also die Schrittzahl der Giraffen ebenfalls auf eins und verkleinerten die Gradzahlen, um die sie sich ufällig drehten. Um unser Programm übersichtlicher zu gestalten, fassten wir außerdem die beiden Befehle für die Links-, beziehungsweise die Rechtsdrehung zu einem Befehl zusammen. Hierzu benutzen wir nur einen "right"-Block, und benutzen einen "random"- und einen "math"-Block, damit die Giraffen sich willkürlich um -90° bis +90° drehen:
+So wie wir unser Programm programmierten, funktionierte es zwar, allerdings bewegten die Giraffen sich sehr viel schneller als Luigi und die Paintbälle. Dies lag an der Art, auf die wir die Bewegung der Giraffen programmiert hatten. Wir ließen sie willkürlich bis zu hundert Schritte auf einmal gehen, während sowohl Luigi, als auch die Paintbälle immer nur einen Schritt zur Zeit gingen.
+
+Um das Problem zu beheben änderten wir also die Schrittzahl der Giraffen ebenfalls auf eins und verkleinerten die Gradzahlen, um die sie sich zufällig drehten. Um unser Programm übersichtlicher zu gestalten, fassten wir außerdem die beiden Befehle für die Links-, beziehungsweise die Rechtsdrehung zu einem Befehl zusammen. Hierzu benutzen wir nur einen "right"-Block, und benutzen einen "random"- und einen "math"-Block, damit die Giraffen sich willkürlich um -90° bis +90° drehen.
 
 ![Screenshot01](Bilder/Screenshot.sltng.25.png "sltng")
 
