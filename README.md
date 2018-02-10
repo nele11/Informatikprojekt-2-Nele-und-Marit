@@ -39,6 +39,7 @@ In der ersten Lernaktivität haben wir zwei verschiedene Agentenarten erstellt: 
 Dann haben wir die Schildkröte mit Hilfe des "forever"-Blocks immer im Quadrat laufen lassen:
 
 ![Screenshot01](Bilder/Screenshot.sltng.1.png "sltng")
+(Hierbei geht der Agent immer geradeaus und dreht danach um 90 Grad.)
 
 ### Lernaktivität zwei:
 
