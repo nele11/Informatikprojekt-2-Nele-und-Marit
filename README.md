@@ -67,7 +67,7 @@ Zunächst haben wir einen "create-do"-Block verwendet, um alle 100 Schildkröten
 
 ![Screenshot01](Bilder/Screenshot.sltng.4.png "sltng")
 
-Wird die Schildkröte nun angeklickt sagt sie, welche Farbe sie hat. Außerdem lässt sich im swap view verfolgen, wie viel der Schildkröten (hier alle) rot gefärbt sind.
+Wird die Schildkröte nun angeklickt sagt sie, welche Farbe sie hat. Außerdem lässt sich im linken untern Bildschirm verfolgen, wie viele der Schildkröten (hier alle) rot gefärbt sind.
 
 Um drei verschiedene Farben zu erhalten, haben wir zusätzlich zwei "if"-Blöcke und eine Variablen benutzt.
 
