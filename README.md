@@ -28,7 +28,7 @@
 ## Erste Stunde <a name="1"></a>
 
 Wir haben uns dazu entschiedenals nächstes Projekt eine Lernaktivität mit StarlogoTNG zu machen.
-Zuerst haben wir uns mit dem Spaceland vertraut gemacht, und gelernt, wie wir zwischen verschiedenen Ansichten wechseln können.
+Zuerst haben wir uns mit dem Spaceland vertraut gemacht, und gelernt, wie wir zwischen verschiedenen Ansichten wechseln können. Ebenfalls klickten wir uns durch die verschiedenen Blöcke des Menus, um ein Gefühl für die möglichen Aktionen, die ein Agent erfüllen kann, zu bekommen.
 
 
 ## Zweite und dritte Stunde <a name="2"></a> (Doppelstunde)
