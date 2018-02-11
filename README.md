@@ -27,7 +27,7 @@
 
 ## Erste Stunde <a name="1"></a>
 
-Wir haben uns dazu entschiedenals nächstes Projekt eine Lernaktivität mit StarlogoTNG zu machen.
+Wir haben uns dazu entschieden, als nächstes Projekt eine Lernaktivität mit StarlogoTNG zu machen.
 Zuerst haben wir uns mit dem Spaceland vertraut gemacht, und gelernt, wie wir zwischen verschiedenen Ansichten wechseln können. Ebenfalls klickten wir uns durch die verschiedenen Blöcke des Menus, um ein Gefühl für die möglichen Aktionen, die ein Agent erfüllen kann, zu bekommen.
 
 
@@ -50,11 +50,11 @@ Zunächst haben wir eine Variable definiert, die eine bestimmte Anzahl von Schil
 
 Die Schildkröte läuft zufällig Schritte. Dass geschied da das Programm eine Zahl zwischen 0-100 auswählt. Dies hat zur Folge, dass die Schildkröten teilweise größere Sprünge in ihrer Schrittfolge hat. Zusätzlich dreht diese sich zufällig in einer Winkelspanne von 0-360 Grad. So hat sie die Möglichkeit sich komplett um die eigene Achse zu drehen.
 
-Um die Schildkröten nun miteinander sprechen zu lassen, wenn sie aufeinandertreffen, haben wir einen "collision-Block" benutzt. In diesem haben wir zwei "say"-Blöcke verwendet:
+Um die Schildkröten nun miteinander sprechen zu lassen, wenn sie aufeinandertreffen, haben wir einen "collisions-Block" benutzt. In diesem haben wir zwei "say"-Blöcke verwendet:
 
 ![Screenshot01](Bilder/Screenshot.sltng.3.png "sltng")
 
-Wenn jetzt eine Schildkröte mit einem Elfanten aufeinander trifft, sagt die Schildkröte: "Hey", und der Elefant: "Hallo".
+Wenn jetzt eine Schildkröte mit einem Elefanten aufeinander trifft, sagt die Schildkröte: "Hey", und der Elefant: "Hallo".
 
 
 ## Vierte und fünfte Stunde <a name="3"></a> (Doppelstunde)
@@ -79,7 +79,7 @@ Um nun jedoch von jeder Farbe 1/3 zu erhalten, wendenten wir einen anderen Ansat
 
 #### Aufgabe zwei
 
-Wir benutzten einen "collision"-Block, damit die Schildkröten gelb werden, wenn sie aufeinander stoßen:
+Wir benutzten einen "collisions"-Block, damit die Schildkröten gelb werden, wenn sie aufeinander stoßen.
 
 ![Screenshot01](Bilder/Screenshot.sltng.6.png "sltng")
 
@@ -87,7 +87,7 @@ Hierbei sind zunächst alle Schildkröten Agenten rot und werden durch die Colli
 
 #### Aufgabe drei
 
-Die Aufgabe bestand darin, die Schildkröten verschwinden zu lassen, wenn sie sich treffen. Hierzu haben wir einen "if-then"-Block benutzt. Als Bedingung haben wir eingesetzt, dass wenn die Schildkröte die gleiche Farbe habt, wie die mit der sie kollidiert, sollen diese sterben. Da die Schildkröten durch das gesamte Spaceland laufen treffen diese sich nach einer gewissen Zeit alle, so dass keine Schildkröten mehr vorhanden sind.
+Die Aufgabe bestand darin, die Schildkröten verschwinden zu lassen, wenn sie sich treffen. Hierzu haben wir einen "if-then"-Block benutzt. Als Bedingung haben wir eingesetzt, dass wenn die Schildkröte die gleiche Farbe hat, wie die mit der sie kollidiert, sollen diese sterben. Da die Schildkröten durch das gesamte Spaceland laufen, treffen diese sich nach einer gewissen Zeit alle, so dass keine Schildkröten mehr vorhanden sind.
 
 ![Screenshot01](Bilder/Screenshot.sltng.7.png "sltng")
 
@@ -108,9 +108,7 @@ Die zweite Aufgabe bestand darin, einen Actor so zu programmieren, dass er sich 
 In den Block für die rechte Pfeiltaste setzten wir unter "then" den Befehl, sich um 90° nach rechts zu drehen, und dann einen Schritt nach vorne zu gehen.
 
 Für die linke Pfeiltaste setzten wir die selben Blöcke ein, mit einer Drehung nach links anstelle von rechts.
-In den "then"-Bereich des "if"-Blockes für die obere Pfeiltaste setzen wir nur den Befehl "forward" ein, kombiniert mit dem Parameter 1.
-
-Für die untere Pfeiltaste programmierten wir, dass der Agent sich rückwärts bewegt.
+In den "then"-Bereich des "if"-Blockes für die obere Pfeiltaste setzen wir nur den Befehl "forward" ein, kombiniert mit dem Parameter 1. Für die untere Pfeiltaste programmierten wir, dass der Agent sich rückwärts bewegt.
 
 Aktiviert man nun im Spaceland den "forever"-Block, so lässt der Elefant sich mit den Pfeiltasten steuern. Drückt man die rechte oder linke Pfeiltaste, so dreht er sich in die entsprechende Richtung, um ihn aber beispielsweise nach rechts laufen zu lassen, muss man zunächst einmal die rechte Pfeiltaste und dann die obere drücken. Würde man nur die rechte mehrmals drücken, so würde er objektiv von oben betrachten nicht nach rechts laufen, sondern sich nur immer wieder um 90° nach rechts drehen, und dann einen Schritt nach vorne machen.
 
@@ -123,7 +121,7 @@ Zunächst haben wir die Benotung unserer ersten Projekte erhalten. Wir konnten f
 
 Danach haben wir uns mit der Klasse gemeinsam einen Text der Verfasser von "TheBeautyAndJoyOfComputing" angeguckt, da Herr Buhl uns das Programm für die nächste Projekteinheit vorstellen wollte. 
 
-Anschließend haben wir die vierte Lernaktivitat unseres Projektes fortgeführt.
+Anschließend haben wir die vierte Lernaktivitat unseres Projektes mit StarLogo TNG fortgeführt.
 
 #### Aufgabe drei
 
@@ -132,7 +130,7 @@ Hierzu erstellten wir unter "Edit Breeds" eine neue Klasse, den "Block".
 Nun fügten wir im Setup-Bereich einen "create-Do"-Block für die Agentenklasse "Block" hinzu.
 Wir definierten im Bereich des Blockes einen Slider. Damit wir diesen auch benutzten können, mussten wir im Setup-Bereich dem "create-Do"-Block des "Blockes" noch die Aufforderung hinzufügen, eine Anzahl von Blöcken mit dem Slider zu kreieren.
 
-Damit der Elefant Blöcke einsammeln und etwas sagen kann, benutzten wir einen "collision"-Block. Beim Block fügten wir "die" hinzu, beim Elefanten "say" und "Ohh, ein Block!". 
+Damit der Elefant Blöcke einsammeln und etwas sagen kann, benutzten wir einen "collisions"-Block. Beim "Block" fügten wir "die" hinzu, beim Elefanten "say" und "Ohh, ein Block!". 
 Nun kann man den Elefanten im Spaceland so steuern, dass er auf Blöcke trifft. Passiert dies, so verschwindet der Block, und der Elefant sagt: "Ohh, ein Block!"
 
 ![Screenshot01](Bilder/Screenshot.sltng.10.png "sltng")
@@ -141,13 +139,13 @@ Nun kann man den Elefanten im Spaceland so steuern, dass er auf Blöcke trifft. 
 
 Die Aufgabe in Lernaktivität fünf bestand darin, einen Wald zu erzeugen, in dem der steuerbare Agent herumlaufen kann. Der Agent sollte auf die Bäume heraufklettern können. Aufgabe des Agenten sollte es sein, einen Schlüssel zu finden, mit dem er sich Zutritt zu einem Gebäude verschaffen kann.
 
-Zunächst erstellten wir den Wald, in dem der Agent sich bewegen soll:
+Zunächst erstellten wir den Wald, in dem der Agent sich bewegen soll.
 
 Als erstes haben wir unter "Edit Breeds" zwei neue Agentenklassen erstellt: Laubbäume und Tannen.
 
 ![Screenshot01](Bilder/Screenshot.sltng.12.png "sltng")
 
-Um nun mit den Bäumen einen Wald zu kreieren, setzten wir im Setup-Bereich zwei neue "create"-Blöcke ein. Wir erstellten 100 Laubbäume und 60 Tannen, um ein stimmiges Bild zu erhalten:
+Um nun mit den Bäumen einen Wald zu kreieren, setzten wir im Setup-Bereich zwei neue "create"-Blöcke ein. Wir erstellten 100 Laubbäume und 60 Tannen, um ein stimmiges Bild zu erhalten.
 
 ![Screenshot01](Bilder/Screenshot.sltng.11.png "sltng")
 
@@ -155,15 +153,15 @@ Um nun mit den Bäumen einen Wald zu kreieren, setzten wir im Setup-Bereich zwei
 ## Neunte und zehnte Stunde <a name="6"></a> (Doppelstunde)
 
 In diesen Stunden haben wir uns damit beschäftigt, den Agenten so zu programmieren, dass er auf die Bäume klettern kann.
-Hierzu haben wir zwei "collision"-Blöcke (für jede Baumart einen) benutzt. Wir benutzten "if-test-then"-Blöcke, setzten als Bedingungen jeweils eine Pfeiltaste ein, und benutzten "up" und "down". Nun konnten wir den Elefanten wenn er auf einen Baum traf mit den Pfeiltasten nach oben oder unten bewegen.
+Hierzu haben wir zwei "collisions"-Blöcke (für jede Baumart einen) benutzt. Wir benutzten "if-test-then"-Blöcke, setzten als Bedingungen jeweils eine Pfeiltaste ein, und benutzten "up" und "down". Nun konnten wir den Elefanten wenn er auf einen Baum traf mit den Pfeiltasten nach oben oder unten bewegen.
 
-Bei dieser Methode, den Agenten zu programmieren, ergab sich nun das Problem, dass der Elefant sich wenn er auf den Baum geklettert war, von der Stelle bewegte. Da die "up"- und "down"-Befehle aber nur in dem Moment funktionierten, in dem der Elefant mit einem Baum kollidierte, konnte man den Elefanten nun nicht mehr auf den Bodenzurück bringen.
+Bei dieser Methode, den Agenten zu programmieren, ergab sich nun das Problem, dass der Elefant sich, wenn er auf den Baum geklettert war, von der Stelle bewegte. Da die "up"- und "down"-Befehle aber nur in dem Moment funktionierten, in dem der Elefant mit einem Baum kollidierte, konnte man den Elefanten nun nicht mehr auf den Bodenzurück bringen.
 
-Um dieses Problem zu lösen, suchten wir nun nach einer Möglichkeit, die normale Richtungssteuerung über die Pfeiltasten zu deaktivieren, wenn der Elefant mit einem Baum kollidiert.
+Um dieses Problem zu lösen, suchten wir nach einer Möglichkeit, die normale Richtungssteuerung über die Pfeiltasten zu deaktivieren, wenn der Elefant mit einem Baum kollidiert.
 
 ![Screenshot01](Bilder/Screenshot.sltng.13.png "sltng")
 
-Wir haben hierzu eine neue Variable eingeführt, die wir "IstImBaum" genannt haben. Den Setup-Bereich haben wir dann zunächst so programmiert, dass die Variable am Anfang auf "false" gesetzt wird. Unter dem "Collision"-Block haben wir dann unter dem Befehl, sich beim Drücken der Pfeiltaste nach oben zu bewegen noch den Befehl hinzugefügt, die Variable auf "true" zu setzten.
+Wir haben hierzu eine neue Variable eingeführt, die wir "IstImBaum" genannt haben. Den Setup-Bereich haben wir dann zunächst so programmiert, dass die Variable am Anfang auf "false" gesetzt wird. Unter dem "collisions"-Block haben wir dann unter dem Befehl, sich beim Drücken der Pfeiltaste nach oben zu bewegen noch den Befehl hinzugefügt, die Variable auf "true" zu setzten.
 Nach dem Herunterklettern vom Baum wird die Variable wieder als "false" wiedergegeben.
 
 Damit die Richtungssteuerung mit den Pfeiltasten deaktiviert wird, wenn der Elefant sich im Baum befindet, haben wir im "forever"-Block noch eine "if-test-then"-Bedingung hinzugefügt, nach der die Steuerung über die Pfeiltasten nur dann funktioniert, wenn die neue Variable als "false" wiedergegeben wird.
@@ -203,7 +201,7 @@ Um unser Spiel zu vervollständigen, haben wir zuletzt noch unter dem Kollisions
 
 ## Vierzehnte Stunde <a name="9"></a>
 
-Herr Buhl wies uns auf einen "Fehler" in der ersten Aufgabe der dritten Lernaktivität hin: Unser gedankliches Ziel war es, die Schildkröten zu gleichmäßigen Teilen in drei verschiedenen Farben zu färben. Hierzu hatten wir "random"-Blöcke benutzt, mit denen zuerst ein Drittel der Schildkröten grün gefärbt wurde. Mit einem zweiten Block haben wir wieder ein Drittel Lila gefärbt. Hierbei haben wir nicht bedacht, dass im Endergebnis dann zwar ein Drittel der Schildkröten lila ist, dafür aber mehr als ein Drittel die ursprüngliche Farbe behält, während weniger als ein Drittel grün bleibt.
+Herr Buhl wies uns auf einen "Fehler" in der ersten Aufgabe der dritten Lernaktivität hin: Unser gedankliches Ziel war es, die Schildkröten zu gleichmäßigen Teilen in drei verschiedenen Farben zu färben. Hierzu hatten wir "random"-Blöcke benutzt, mit denen zuerst ein Drittel der Schildkröten grün gefärbt wurde. Mit einem zweiten Block haben wir wieder ein Drittel lila gefärbt. Hierbei haben wir nicht bedacht, dass im Endergebnis dann zwar ein Drittel der Schildkröten lila ist, dafür aber mehr als ein Drittel die ursprüngliche Farbe behält, während weniger als ein Drittel grün bleibt.
 
 Um dies zu beheben, haben wir zunächst die Hälfte der Schildkröten grün gefärbt, und dann ein Drittel der gesamten Schildkröten lila. Auf diese Weise haben wir erreicht, dass am Ende jeweils ungefähr ein Drittel der Schildkröten die gleiche Farbe hat.
 
@@ -214,7 +212,7 @@ Um dies zu beheben, haben wir zunächst die Hälfte der Schildkröten grün gef�
 
 ### Lernaktivität sechs:
 
-Das Ziel dieser Lernaktivität besteht darin, eine Ego-Shooter zu programmieren, in dem ein Agent mit Paintbällen auf andere Agenten schießt, welche dann die Farbe des Balles annehmen.
+Das Ziel dieser Lernaktivität besteht darin, eine Ego-Shooter zu programmieren, indem ein Agent mit Paintbällen auf andere Agenten schießt, welche dann die Farbe des Balles annehmen.
 Zuerst haben wir zwei neue Agentenarten, den Paintball und den Luigi erstellt. Im "Setup"-Bereich erstellten wir nun einen Luigi.
 
 Als nächstes lernten wir, mit Hilfe der "hatch"-Funktion einen zweiten Luigi zu erzeugen, wenn die "space"-Taste gedrückt wird. Wir legten die Position dieses Luigis mit einem "forward"- und einem "setAltitude"-Block fest. Somit startet der zweite Luigi einen Schritt nach vorne und oben. Danach änderten wir die Rasse des Agenten in "Paintball" und färbten ihn mit Hilfe des "setColor"-Blockes grün.
@@ -232,7 +230,7 @@ Damit der Paintball sich bewegt haben wir eine neue Prozedur erstellt, die wir "
 ![Screenshot01](Bilder/Screenshot.sltng.22.png "sltng")
 ![Screenshot01](Bilder/Screenshot.sltng.23.png "sltng")
 
-Als nächstes erstellten wir eine Kollisionsblock, für eine Kollision zwischen den Paintbällen und den Giraffen. Wir benutzen einen "setColor"-Block, um die Giraffe rot zu färben, nachdem sie von einem Paintball getroffen wurde. Da die Giraffen nur eine Hülle besitzen kann die neu angenommende Farbe von Spieler gesehen werden. Damit der Paintball dann verschwindet benutzten wir einen "die"-Block.
+Als nächstes erstellten wir einen Kollisionsblock, für eine Kollision zwischen den Paintbällen und den Giraffen. Wir benutzen einen "setColor"-Block, um die Giraffe rot zu färben, nachdem sie von einem Paintball getroffen wurde. Da die Giraffen nur eine Hülle besitzen, kann die neu angenommende Farbe von Spieler gesehen werden. Damit der Paintball dann verschwindet, benutzten wir einen "die"-Block.
 
 ![Screenshot01](Bilder/Screenshot.sltng.21.png "sltng")
 
@@ -241,7 +239,7 @@ Als nächstes erstellten wir eine Kollisionsblock, für eine Kollision zwischen 
 
 So wie wir unser Programm programmierten, funktionierte es zwar, allerdings bewegten die Giraffen sich sehr viel schneller als Luigi und die Paintbälle. Dies lag an der Art, auf die wir die Bewegung der Giraffen programmiert hatten. Wir ließen sie willkürlich bis zu hundert Schritte auf einmal gehen, während sowohl Luigi, als auch die Paintbälle immer nur einen Schritt zur Zeit gingen.
 
-Um das Problem zu beheben änderten wir also die Schrittzahl der Giraffen ebenfalls auf eins und verkleinerten die Gradzahlen, um die sie sich zufällig drehten. Um unser Programm übersichtlicher zu gestalten, fassten wir außerdem die beiden Befehle für die Links-, beziehungsweise die Rechtsdrehung zu einem Befehl zusammen. Hierzu benutzen wir nur einen "right"-Block, und benutzen einen "random"- und einen "math"-Block, damit die Giraffen sich willkürlich um -90° bis +90° drehen. Zusätzlich fürten wir hinzu, dass die Giraffen den Drehwinkel ein Form eines "say- Blocks" angaben.
+Um das Problem zu beheben änderten wir also die Schrittzahl der Giraffen ebenfalls auf eins und verkleinerten die Gradzahlen, um die sie sich zufällig drehten. Um unser Programm übersichtlicher zu gestalten, fassten wir außerdem die beiden Befehle für die Links-, beziehungsweise die Rechtsdrehung zu einem Befehl zusammen. Hierzu benutzen wir nur einen "right"-Block, und benutzen einen "random"- und einen "math"-Block, damit die Giraffen sich willkürlich um -90° bis +90° drehen. Zusätzlich fürten wir hinzu, dass die Giraffen den Drehwinkel in Form eines "say- Blocks" angaben.
 
 ![Screenshot01](Bilder/Screenshot.sltng.25.png "sltng")
 
